@@ -1,0 +1,29 @@
+$primary:rgb(15, 15, 15);
+$secondary:rgb(15, 15, 14);
+$light:rgb(252, 252, 253);
+$lighter:rgb(255, 255, 126);
+
+$font:rgba(82, 82, 82, 0.788);
+$font-light:rgba(32, 32, 32, 0.637);
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width:80%;
+    margin: auto;
+    height:100%;
+}
+
+
+
+
+
+@import "nav";
+@import "header";
+@import "section";
+@import "footer"
